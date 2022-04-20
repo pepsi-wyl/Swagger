@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "name": "swagger",
+      "type": "com.pepsiwyl.config.properties.SwaggerProperties",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.application-description",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.application-name",
+      "type": "java.lang.String",
+      "description": "项目信息",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.application-version",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启swagger，生产环境一般关闭，所以这里定义一个变量",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.try-host",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.user-email",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.user-name",
+      "type": "java.lang.String",
+      "description": "开发人员信息",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.user-url",
+      "type": "java.lang.String",
+      "sourceType": "com.pepsiwyl.config.properties.SwaggerProperties"
+    }
+  ],
+  "hints": []
+}

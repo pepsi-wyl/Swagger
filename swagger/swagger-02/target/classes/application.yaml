@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Springfox-Swagger
+server:
+  port: 8080
+
+# ===== swagger ===== #
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: springfox swagger 3.0 Demo
+  user-name: pepsi-wyl
+  user-url: http://blog.pepsi-wyl.xyz
+  user-email: 2322535585@qq.com
+  try-host: http://localhost:${server.port}
+
